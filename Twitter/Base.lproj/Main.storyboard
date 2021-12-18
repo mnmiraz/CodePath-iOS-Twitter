@@ -90,8 +90,8 @@
                                                 <constraint firstAttribute="height" constant="30" id="oom-Yh-Zh0"/>
                                                 <constraint firstAttribute="width" constant="30" id="p3H-bz-853"/>
                                             </constraints>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain" image="favor-icon-1"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" image="favor-icon-1"/>
                                             <connections>
                                                 <action selector="favoriteTweet:" destination="dVH-3q-9h6" eventType="touchUpInside" id="yfH-ao-Fw3"/>
                                             </connections>
@@ -102,8 +102,8 @@
                                                 <constraint firstAttribute="width" constant="30" id="3Ov-rS-TJb"/>
                                                 <constraint firstAttribute="height" constant="30" id="IkW-Pk-GH6"/>
                                             </constraints>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain" image="retweet-icon"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" image="retweet-icon"/>
                                             <connections>
                                                 <action selector="retweet:" destination="dVH-3q-9h6" eventType="touchUpInside" id="Rfs-2v-Z9m"/>
                                             </connections>
